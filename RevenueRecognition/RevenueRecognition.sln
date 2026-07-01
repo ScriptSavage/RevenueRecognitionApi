@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{16ADF6BE-6EA5-48DA-AA15-28F27BFEE664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{F449BA33-68D5-4E3A-A9E0-882987BDD8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bal", "Bal\Bal.csproj", "{26BCFEF3-4EF5-40BC-ACE3-0E55A2163C79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16ADF6BE-6EA5-48DA-AA15-28F27BFEE664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ADF6BE-6EA5-48DA-AA15-28F27BFEE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ADF6BE-6EA5-48DA-AA15-28F27BFEE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ADF6BE-6EA5-48DA-AA15-28F27BFEE664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F449BA33-68D5-4E3A-A9E0-882987BDD8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F449BA33-68D5-4E3A-A9E0-882987BDD8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F449BA33-68D5-4E3A-A9E0-882987BDD8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F449BA33-68D5-4E3A-A9E0-882987BDD8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BCFEF3-4EF5-40BC-ACE3-0E55A2163C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BCFEF3-4EF5-40BC-ACE3-0E55A2163C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BCFEF3-4EF5-40BC-ACE3-0E55A2163C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BCFEF3-4EF5-40BC-ACE3-0E55A2163C79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
