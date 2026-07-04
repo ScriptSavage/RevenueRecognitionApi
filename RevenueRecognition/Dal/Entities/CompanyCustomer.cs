@@ -2,6 +2,6 @@
 
 public class CompanyCustomer : Customer
 {
-    public string CompanyName { get; private set; } = null!;
-    public string Krs { get; private set; } = null!;
+    public string CompanyName { get;  set; } = null!;
+    public string Krs { get;  set; } = null!;
 }

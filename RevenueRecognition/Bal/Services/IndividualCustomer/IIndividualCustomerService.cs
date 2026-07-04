@@ -4,7 +4,7 @@ namespace Bal.Services.IndividualCustomer;
 
 public interface IIndividualCustomerService
 {
-    Task<IndividualCustomerDto.Response> AddCustomerAsync(IndividualCustomerDto.CreateNewIndividualCustomer request);
+    Task<IndividualCustomerDto.Response> AddCompanyCustomerAsync(IndividualCustomerDto.CreateNewIndividualCustomer request);
     
     Task DeleteCustomerAsync(long id);
     

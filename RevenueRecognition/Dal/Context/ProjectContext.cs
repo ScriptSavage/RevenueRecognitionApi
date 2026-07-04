@@ -18,6 +18,11 @@ public class ProjectContext : DbContext
         modelBuilder.ApplyConfiguration(new CustomerConfiguration());
         modelBuilder.ApplyConfiguration(new IndividualCustomerConfiguration());
         modelBuilder.ApplyConfiguration(new CompanyCustomerConfiguration());
+        modelBuilder.ApplyConfiguration(new SoftwareCategoryConfiguration());
+        modelBuilder.ApplyConfiguration(new SoftwareConfiguration());
+        modelBuilder.ApplyConfiguration(new DiscountConfiguration());
+        modelBuilder.ApplyConfiguration(new LicenceContractConfiguration());
+        modelBuilder.ApplyConfiguration(new SoftwareVersionConfiguration());
         base.OnModelCreating(modelBuilder);
     }
 }

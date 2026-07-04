@@ -10,7 +10,7 @@ public class Customer
     public string Street { get; set; } = null!;
     public string PostalCode { get;  set; } = null!;
 
-    public DateTime CreatedAtUtc { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAtUtc { get; private set; } = DateTime.UtcNow;
 
     public Customer(string email, string phoneNumber, string city, string street, string postalCode)
     {
@@ -26,6 +26,8 @@ public class Customer
     {
     }
 
+
+    public ICollection<LicenceContract> LicenceContracts { get; set; } = [];
 
 
     public override string ToString()

@@ -44,4 +44,11 @@ public class CompanyCustomerRepository : ICompanyCustomerRepository
     {
         _context.Customers.Remove(entity);
     }
+
+    public async Task<bool> DoesCompanyKrsExist(string krs)
+    {
+        return await  _context.Customers
+            .OfType<CompanyCustomer>()
+            .AnyAsync(e=>e.Krs==krs);
+    }
 }

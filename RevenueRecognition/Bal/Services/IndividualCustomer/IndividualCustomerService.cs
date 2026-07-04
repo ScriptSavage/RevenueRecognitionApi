@@ -22,7 +22,7 @@ public class IndividualCustomerService : IIndividualCustomerService
         _createNewIndividualCustomerValidator = createNewIndividualCustomerValidator;
     }
 
-    public async Task<IndividualCustomerDto.Response> AddCustomerAsync(IndividualCustomerDto.CreateNewIndividualCustomer request)
+    public async Task<IndividualCustomerDto.Response> AddCompanyCustomerAsync(IndividualCustomerDto.CreateNewIndividualCustomer request)
     {
         
        var validationResult = await _createNewIndividualCustomerValidator.ValidateAsync(request);

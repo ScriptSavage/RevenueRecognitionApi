@@ -20,7 +20,7 @@ public class IndividualCustomerController : ControllerBase
     public async Task<IActionResult> AddNewIndividualCustomer(
         [FromBody] IndividualCustomerDto.CreateNewIndividualCustomer request)
     {
-        var result = await _individualCustomerService.AddCustomerAsync(request);
+        var result = await _individualCustomerService.AddCompanyCustomerAsync(request);
 
         return Ok(result);
     }
